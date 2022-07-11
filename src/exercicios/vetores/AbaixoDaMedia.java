@@ -22,7 +22,7 @@ public class AbaixoDaMedia {
 		}
 		
 		media /= quantidade;
-		System.out.printf("MEDIA DO VETOR = %.3f",media);
+		System.out.printf("MEDIA DO VETOR = %.3f %n",media);
 		
 		System.out.println("ELEMENTOS ABAIXO DA MEDIA:");
 		for(int i = 0; i <= vetor.length-1; i++) {
