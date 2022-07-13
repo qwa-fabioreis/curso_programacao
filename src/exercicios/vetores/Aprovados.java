@@ -16,6 +16,7 @@ public class Aprovados {
 		float vetorNotaA[] = new float[quantidade];
 		float vetorNotaB[] = new float[quantidade];
 		String alunosAprovados = "";
+		
 		for(int i = 0; i < quantidade; i++) {
 			System.out.printf("Digite nome, primeira e segunda nota do %do aluno: %n", i+1);
 			vetorNome[i] = entrada.next();
@@ -25,10 +26,10 @@ public class Aprovados {
 				alunosAprovados += vetorNome[i] + "\n";
 			}
 		}
+		
 		System.out.println("Alunos aprovados:");
 		System.out.println(alunosAprovados);
 		entrada.close();
-
 	}
 
 }
